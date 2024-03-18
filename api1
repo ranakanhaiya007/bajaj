@@ -1,0 +1,9 @@
+curl --location 'https://customer-analytics-34146.my.salesforce-sites.com/services/apexrest/createAccount' \
+--header 'Content-Type: application/json' \
+--header 'Cookie: BrowserId=cllRw-UEEe6ga89VJwCeSg; CookieConsentPolicy=0:1; LSKey-c$CookieConsentPolicy=0:1' \
+--data-raw '{
+"name": "kanhaiya",
+"email": "kanhaiya0717.be21@chitkara.edu.in",
+"rollNumber": 2110990717, 
+"phone": 9518124973
+}'
